@@ -1,0 +1,32 @@
+{
+  "name": "webpack_project",
+  "version": "1.0.0",
+  "description": "Project in Github",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bitarov/webpack.git"
+  },
+  "author": "Mayram",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bitarov/webpack/issues"
+  },
+  "homepage": "https://github.com/Bitarov/webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
